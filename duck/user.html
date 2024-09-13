@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User forms</title>
+    <script src="js/script2.js" type="module" defer></script>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Forms</h1>
+    </header>
+    <main>
+      <form onsubmit="return validateForm()">
+        <input type="email" name="email" placeholder="Email" aria-label="Email" autocomplete="email" id="email" />
+        <input type="user" name="user" placeholder="Full name" aria-label="Full name" id="user" />
+        <input type="password" name="password" placeholder="Password" aria-label="Password" id="password" />
+        <button type="submit" id="addUser" title="submit">Enter</button>
+      </form>
+    </main>
+  </body>
+</html>

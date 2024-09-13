@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+header,
+main {
+  width: 100%;
+  max-width: 400px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.user-button {
+  position: absolute; /* Allows precise placement */
+  top: 1rem;
+  right: 1rem; /* Positions the button in the top right */
+  text-decoration: none;
+}

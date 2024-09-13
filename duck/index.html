@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rubber duck</title>
+    <script src="js/script.js" type="module"></script>
+    <link rel="stylesheet" href="node_modules/@picocss/pico/css/pico.amber.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="hidden">Rubber duck</h1>
+      <img src="duck.png" alt="png rubber duck" width="250px" class="duck" id="duck" />
+      <a href="user.html" class="button user-button">User</a>
+      <button type="submit" id="joke" title="duck joke">force answer</button>
+    </header>
+    <main>
+      <form>
+        <input type="text" placeholder="Ask the duck" id="newToList" />
+        <button type="submit" id="addList" title="ask the duck">Enter</button>
+      </form>
+      <ul id="list"></ul>
+    </main>
+  </body>
+</html>
